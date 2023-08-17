@@ -63,6 +63,11 @@ public class Menu extends javax.swing.JFrame {
         jMenu1.setText("Administrador");
 
         jproductos.setText("Productos");
+        jproductos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jproductosActionPerformed(evt);
+            }
+        });
         jMenu1.add(jproductos);
 
         jMenuBar1.add(jMenu1);
@@ -142,6 +147,16 @@ public class Menu extends javax.swing.JFrame {
         this.jDesktopPane1.add(bpp);
         this.jDesktopPane1.moveToFront(bpp);
     }//GEN-LAST:event_jbusquedaXpActionPerformed
+
+    private void jproductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jproductosActionPerformed
+        // TODO add your handling code here:
+        this.jDesktopPane1.removeAll();
+        this.jDesktopPane1.repaint();
+        GestionDeProductos gdp = new GestionDeProductos();
+        gdp.setVisible(true);
+        this.jDesktopPane1.add(gdp);
+        this.jDesktopPane1.moveToFront(gdp);
+    }//GEN-LAST:event_jproductosActionPerformed
 
     /**
      * @param args the command line arguments
