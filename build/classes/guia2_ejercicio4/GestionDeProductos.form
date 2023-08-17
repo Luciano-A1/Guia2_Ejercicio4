@@ -28,7 +28,7 @@
               <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jLabel1" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="0" pref="85" max="32767" attributes="0"/>
+                  <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
                   <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -51,7 +51,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jTextField2" alignment="1" min="-2" pref="121" max="-2" attributes="0"/>
                               <Component id="jTextField3" alignment="1" min="-2" pref="121" max="-2" attributes="0"/>
-                              <Component id="jComboBox1" alignment="1" min="-2" pref="129" max="-2" attributes="0"/>
+                              <Component id="jCBRubro" alignment="1" min="-2" pref="129" max="-2" attributes="0"/>
                               <Component id="jTextField4" alignment="1" min="-2" pref="129" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -97,7 +97,7 @@
               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCBRubro" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -182,7 +182,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField3">
     </Component>
-    <Component class="javax.swing.JComboBox" name="jComboBox1">
+    <Component class="javax.swing.JComboBox" name="jCBRubro">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="0"/>
